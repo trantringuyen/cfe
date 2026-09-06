@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPLOAD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="main.html">Trang chủ</a>
+            <a href="danh-sach.html">Danh sách bài viết</a>
+            <a href="upload.html" class="active">Đăng Bài</a>
+        </nav>
+    </header>
+
+<div class="mail-compose-container">
+
+  <div class="mail-header">
+    <span>Bài viết mới</span>
+    <div class="header-actions">
+      <button>×</button>
+    </div>
+  </div>
+
+
+  <div class="mail-form">
+    <div class="input-group">
+      <label>Tiêu Đề</label>
+      <input type="text" id="mail-to" placeholder="Recipients">
+    </div>
+    <div class="input-group">
+      <input type="text" id="mail-subject" placeholder="Subject">
+    </div>
+  </div>
+
+
+  <div class="mail-body" contenteditable="true" aria-label="Message Body">
+
+  </div>
+
+
+  <div class="mail-footer">
+    <button class="btn-send">Đăng</button>
+    <div class="format-tools">
+      <form action="/action_page.php">
+        <input type="file" id="myFile" name="filename">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
